@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+void main()
+{
+          int a[20],i,n;
+          printf("enter the limit:");
+          scanf("%d",&n);
+
+          for(i=0;i<n;i++)
+          {
+              printf("\n Enter the number %d:",i+1);
+              scanf("%d",&a[i]);
+          }
+
+
+          printf("\nThese are the elements entered:");
+
+          for(i=0;i<n;i++)
+          {
+              printf("\nOn the position %d value is %d ",i+1,a[i]);
+          }
+
+}
